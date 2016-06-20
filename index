@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>余航宇的简历</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#hello">Me</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#info">基本信息</a></li>
+        <li><a href="#cont">联系方式</a></li>
+	<li><a href="#exp">履历</a></li>
+        <li><a href="#more">了解更多</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+	<h3 class="margin">你好<a id="hello"></a></h3>
+  <img src="img/Photo.png" class="img-responsive img-circle margin" style="display:inline" alt="Photo" width="350" height="350">
+  <h3>我是余航宇</h3>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+	<h3 class="margin">基本信息<a id="info"></a></h3>
+  <p>92年生 来自山东东营</br>
+	本科毕业于湖南师范大学地理信息系统专业</br>现就读于中国石油大学（北京）地质资源与地质工程专业 </p>
+  <!--<a href="#" class="btn btn-default btn-lg">
+    <span class="glyphicon glyphicon-search"></span> Search
+  </a>-->
+</div>
+
+<!-- Third Container -->
+<div class="container-fluid bg-3 text-center">
+	<h3 class="margin">联系方式<a id="cont"></a></h3>
+	<p>手机：18612230840</br>
+	邮箱：yuhenry78@163.com</br>
+	地址：北京市昌平区中国石油大学</p>
+</div>
+
+<!-- Fourth Container (Grid) -->
+<div class="container-fluid bg-4 text-center">    
+  <!--<h3 class="margin">一些经历</h3><br>-->
+  <div class="row">
+  <div class="col-sm-4">
+	    <h3>学习成绩<a id="exp"></a></h3>
+		<hr>
+		<ul>
+			<li>本科班级排前10%</li>
+			<li>研究生年级排前50%</li>
+		</ul>
+    </div>
+    <div class="col-sm-4">
+	    <h3>项目经历</h3>
+		<hr>
+		<ul>
+			<li>2013年12月-2014年4月 中科院亚热带所土壤有机质与光谱值建模</li>
+			<li>2015年5月至今 中国石油大学（北京）数字地质调查项目建立</li>
+		</ul>
+    </div>
+    <div class="col-sm-4"> 
+      <h3>实习经历</h3>
+		<hr>
+		<ul>
+			<li>2013年7-8月 郴州市国土资源局地理信息中心</li>
+			<li>2014年5-6月 湖南省测绘地理信息局</li>
+		</ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4"> 
+      <h3>学生活动</h3>
+		<hr>
+		<ul>
+			<li>2010-2011年 院学社联外联部干事</li>
+			<li>2011-2012年 班级宣传委员</li>
+			<li>2012-2013年 校党委宣传部技术员</li>						
+			<li>2015年-2016年 院研究生会宣传部副部长</li>
+		</ul>
+    </div>
+	<div class="col-sm-4"> 
+      <h3>所获奖项</h3>
+		<hr>
+		<ul>
+			<li>2010-2011年 院学社联外联部优秀部委</li>
+			<li>2012-2013年 校党委宣传部优秀工作人员</li>						
+			<li>2014年-2015年 校研究生入学奖学金</li>
+		</ul>
+    </div>
+	<div class="col-sm-4"> 
+      <h3>参加会议</h3>
+		<hr>
+		<ul>
+			<li>2012年12月 中国湖泊论坛</li>
+			<li>205年6月 地理信息开发者大会</li>
+			<li>2015年10月 Esri用户大会</li>						
+		</ul>
+    </div>
+  </div>
+  <div class="row">
+	<div class="col-sm-4"> 
+      <h3>兴趣爱好</h3>
+		<hr>
+		<ul>
+			<li>英文</li>			
+			<li>踢足球</li>
+			<li>吉他</li>
+			<li>绘画</li>
+		</ul>
+    </div>
+	<div class="col-sm-4"> 
+      <h3>专业技能</h3>
+		<hr>
+		<ul>
+			<li>英文 CET6（516）研究生入学考试（73）口语一般 写作流畅</li>
+			<li>Microsoft Office,Photoshop,Coreldraw,ArcGIS,MapGIS,Matlab</li>			
+			<li>HTML,CSS</li>
+			<li>JavaScript,Python 入门</li>
+			<li>Linux 入门</li>
+		</ul>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-5 text-center">
+	<h3>了解更多<a id="more"></a></h3>
+	<a href="https://www.linkedin.com/in/henry-yu-9449b784"><img src="img/linkin.png" width="50" height="50"/></a>
+	<a href="https://www.facebook.com/profile.php?id=100002528814536"><img src="img/facebook.png" width="50" height="50"/></a>
+	<a href="https://twitter.com/yhyhenry"><img src="img/twitter.png" width="50" height="50"/></a>
+	<a href="http://weibo.com/2278127085/profile?topnav=1&wvr=6&is_all=1"><img src="img/sina_weibo.png" width="50" height="50"/></a>
+	<a href="http://www.zhihu.com/people/henry-yu"><img src="img/zhihu.png" width="50" height="50"/></a>
+	<a href="http://www.douban.com/people/43491034/"><img src="img/douban.png" width="50" height="50"/></a>
+</footer>
+
+</body>
+</html>
